@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  body{margin:0;background:#FFFFFF;color:#0B2A4A;font-family:'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased;}
+  *{box-sizing:border-box;}
+  a{color:#2F80ED;}
+  a:hover{color:#0B2A4A;}
+</style>
+</helmet>
+<div style="min-height:100vh;display:flex;flex-direction:column;background:#FFFFFF">
+
+  <header style="position:sticky;top:0;z-index:50;background:#FFFFFF;border-bottom:1px solid #DDE3E9">
+    <div style="max-width:1160px;margin:0 auto;padding:16px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+      <a href="./index.html" style="display:flex;align-items:center;gap:11px;text-decoration:none;color:#0B2A4A">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" style="width:28px;height:31px;display:block" aria-hidden="true" role="img">
+          <circle cx="25" cy="5" r="4" fill="#0B2A4A"/>
+          <circle cx="8" cy="22" r="4" fill="#0B2A4A"/>
+          <circle cx="20" cy="30" r="3" fill="#0B2A4A"/>
+          <circle cx="42" cy="28" r="4" fill="#0B2A4A"/>
+          <circle cx="10" cy="48" r="4" fill="#0B2A4A"/>
+          <circle cx="35" cy="50" r="4" fill="#0B2A4A"/>
+          <line x1="25" y1="5" x2="8" y2="22" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="25" y1="5" x2="42" y2="28" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="25" y1="5" x2="20" y2="30" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="8" y1="22" x2="20" y2="30" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="8" y1="22" x2="42" y2="28" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="8" y1="22" x2="10" y2="48" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="20" y1="30" x2="42" y2="28" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="20" y1="30" x2="10" y2="48" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="20" y1="30" x2="35" y2="50" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="10" y1="48" x2="35" y2="50" stroke="#0B2A4A" stroke-width="1.5"/>
+          <line x1="42" y1="28" x2="35" y2="50" stroke="#0B2A4A" stroke-width="1.5"/>
+        </svg>
+        <span style="font-family:'Archivo',sans-serif;font-weight:700;font-size:15px;letter-spacing:0.03em">ENGINEERING DESIGN NEXUS</span>
+      </a>
+      <nav style="display:flex;gap:26px;align-items:center" aria-label="Päävalikko">
+        <a href="./index.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;color:#5A6B7A;border-bottom:2px solid transparent;padding-bottom:3px" style-hover="color:#0B2A4A;border-bottom:2px solid #DDE3E9">Etusivu</a>
+        <a href="./Palvelut.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;color:#5A6B7A;border-bottom:2px solid transparent;padding-bottom:3px" style-hover="color:#0B2A4A;border-bottom:2px solid #DDE3E9">Palvelut</a>
+        <a href="./Filosofia.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;color:#0B2A4A;border-bottom:2px solid #2F80ED;padding-bottom:3px">Filosofia</a>
+        <a href="./Yritys.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;color:#5A6B7A;border-bottom:2px solid transparent;padding-bottom:3px" style-hover="color:#0B2A4A;border-bottom:2px solid #DDE3E9">Yritys</a>
+        <a href="./Yhteystiedot.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;color:#FFFFFF;background:#0B2A4A;padding:9px 16px" style-hover="background:#2F80ED">Ota yhteyttä</a>
+      </nav>
+    </div>
+  </header>
+
+  <main style="flex:1">
+
+    <section style="border-bottom:1px solid #DDE3E9;background:#F4F6F8">
+      <div style="max-width:1160px;margin:0 auto;padding:64px 40px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">EDN—02</span>
+          <span style="width:44px;height:1px;background:#C9D4DF"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#5A6B7A;text-transform:uppercase">Suunnittelufilosofia</span>
+        </div>
+        <h1 style="font-family:'Archivo',sans-serif;font-weight:700;font-size:clamp(1.9rem,3.4vw,2.7rem);line-height:1.1;letter-spacing:-0.02em;margin:0;max-width:24ch">Jokainen ratkaisu arvioidaan kolmen kriteerin läpi.</h1>
+      </div>
+    </section>
+
+    <section style="border-bottom:1px solid #DDE3E9">
+      <div style="max-width:1160px;margin:0 auto;padding:0 40px">
+        <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:#DDE3E9;border-left:1px solid #DDE3E9;border-right:1px solid #DDE3E9">
+          <div style="background:#FFFFFF;padding:44px 32px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">01</span>
+            <h2 style="font-family:'Archivo',sans-serif;font-weight:600;font-size:1.3rem;letter-spacing:-0.01em;margin:12px 0 12px">Valmistettavuus</h2>
+            <p style="margin:0;font-size:0.97rem;line-height:1.6;color:#3C4C5C">Suunnittelussa huomioidaan koneistus, jyrsintä, sorvaus, levytyö, hitsaus, laserleikkaus ja 3D-tulostus jo aikaisessa vaiheessa — ei jälkikäteen.</p>
+          </div>
+          <div style="background:#FFFFFF;padding:44px 32px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">02</span>
+            <h2 style="font-family:'Archivo',sans-serif;font-weight:600;font-size:1.3rem;letter-spacing:-0.01em;margin:12px 0 12px">Turvallisuus</h2>
+            <p style="margin:0;font-size:0.97rem;line-height:1.6;color:#3C4C5C">Rakenteen ja käytön turvallisuus ei ole viimeistelyvaiheen tarkistuslista, vaan lähtökohta joka päätökselle.</p>
+          </div>
+          <div style="background:#FFFFFF;padding:44px 32px">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">03</span>
+            <h2 style="font-family:'Archivo',sans-serif;font-weight:600;font-size:1.3rem;letter-spacing:-0.01em;margin:12px 0 12px">Luotettavuus</h2>
+            <p style="margin:0;font-size:0.97rem;line-height:1.6;color:#3C4C5C">Ratkaisun tulee kestää käytössä — ei vain toimia ensimmäisellä testikerralla.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="border-bottom:1px solid #DDE3E9">
+      <div style="max-width:1160px;margin:0 auto;padding:48px 40px">
+        <p style="margin:0;padding-left:20px;border-left:2px solid #2F80ED;font-size:1rem;line-height:1.6;color:#3C4C5C;max-width:70ch">Projektikohtaisesti painotamme myös kustannuksia, huollettavuutta, toimitusaikaa tai ulkonäköä — sen mukaan, mikä on juuri sinun tavoitteillesi tärkeintä.</p>
+      </div>
+    </section>
+
+    <section style="border-bottom:1px solid #DDE3E9;background:#F4F6F8">
+      <div style="max-width:1160px;margin:0 auto;padding:64px 40px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">EDN—02</span>
+          <span style="width:44px;height:1px;background:#C9D4DF"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#5A6B7A;text-transform:uppercase">Arvot</span>
+        </div>
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:600;font-size:clamp(1.4rem,2.2vw,1.8rem);letter-spacing:-0.015em;margin:0 0 14px;max-width:28ch">Läpinäkyvyys ennen lupauksia.</h2>
+        <p style="margin:0;font-size:1.02rem;line-height:1.6;color:#3C4C5C;max-width:62ch;text-wrap:pretty">Tiedät tarkalleen, mitä teemme, miksi ja mitä se maksaa. Jos löydämme ongelman, kuulet siitä heti — et vasta deadlinen jälkeen.</p>
+      </div>
+    </section>
+
+    <section>
+      <div style="max-width:1160px;margin:0 auto;padding:72px 40px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:22px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED">EDN—02</span>
+          <span style="width:44px;height:1px;background:#DDE3E9"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#5A6B7A;text-transform:uppercase">Prosessi</span>
+        </div>
+        <h2 style="font-family:'Archivo',sans-serif;font-weight:600;font-size:clamp(1.6rem,2.6vw,2.1rem);letter-spacing:-0.015em;margin:0 0 40px;max-width:26ch">Selkeä polku ideasta pitkäaikaiseen kumppanuuteen.</h2>
+        <ol style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:#DDE3E9;border:1px solid #DDE3E9">
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">01</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Yhteydenotto</span>
+          </li>
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">02</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Tarpeen kartoitus</span>
+          </li>
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">03</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Tarjous</span>
+          </li>
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">04</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Projekti käynnistyy</span>
+          </li>
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">05</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Toteutus</span>
+          </li>
+          <li style="background:#FFFFFF;padding:24px 20px 28px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#2F80ED;margin-bottom:12px">06</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Toimitus &amp; laskutus</span>
+          </li>
+          <li style="background:#0B2A4A;padding:24px 20px 28px;color:#FFFFFF">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#7FB2F5;margin-bottom:12px">07</span>
+            <span style="font-size:0.95rem;font-weight:500;line-height:1.35">Pitkäaikainen kumppanuus</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <footer style="background:#F4F6F8;border-top:1px solid #DDE3E9">
+    <div style="max-width:1160px;margin:0 auto;padding:40px 40px 26px">
+      <div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;padding-bottom:24px;border-bottom:1px solid #DDE3E9">
+        <div>
+          <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:#5A6B7A;margin-bottom:6px">Yritys</span>
+          <span style="font-size:0.92rem">Engineering Design Nexus Oy</span>
+        </div>
+        <div>
+          <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:#5A6B7A;margin-bottom:6px">Y-tunnus</span>
+          <span style="font-size:0.92rem">3636920-5</span>
+        </div>
+        <div>
+          <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:#5A6B7A;margin-bottom:6px">Toimialue</span>
+          <span style="font-size:0.92rem">Suomi</span>
+        </div>
+        <div>
+          <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:#5A6B7A;margin-bottom:6px">Ydinosaaminen</span>
+          <span style="font-size:0.92rem">SolidWorks · AutoCAD</span>
+        </div>
+        <div>
+          <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.1em;text-transform:uppercase;color:#5A6B7A;margin-bottom:6px">Sähköposti</span>
+          <a href="mailto:info@engineeringdesignnexus.com" style="font-size:0.92rem;color:#2F80ED;text-decoration:none">info@engineeringdesignnexus.com</a>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:20px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5A6B7A">
+        <span>© 2026 ENGINEERING DESIGN NEXUS</span>
+        <span>EDN—REV.B · MITTAKAAVA 1:1</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+</body>
+</html>
