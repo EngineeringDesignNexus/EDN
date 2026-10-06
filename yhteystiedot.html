@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yhteystiedot — Engineering Design Nexus</title>
+<meta name="description" content="Kerro meille, mitä olet ratkaisemassa. Vastaamme mielellämme 1–2 työpäivän kuluessa.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://www.engineeringdesignnexus.com/yhteystiedot">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Engineering Design Nexus">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:url" content="https://www.engineeringdesignnexus.com/yhteystiedot">
+<meta property="og:title" content="Yhteystiedot — Engineering Design Nexus">
+<meta property="og:description" content="Kerro meille, mitä olet ratkaisemassa. Vastaamme mielellämme 1–2 työpäivän kuluessa.">
+<meta property="og:image" content="https://www.engineeringdesignnexus.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Engineering Design Nexus — Tekniset ratkaisut, jotka valmistuvat.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/plex-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/plex-mono-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#sisalto">Siirry sisältöön</a>
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="index.html" aria-label="Engineering Design Nexus — etusivu">
+      <img src="assets/logo-mark-navy.svg" width="28" height="31" alt="">
+      <span>ENGINEERING DESIGN NEXUS</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Päävalikko">
+      <a class="nav-link" href="index.html">Etusivu</a>
+      <a class="nav-link" href="palvelut.html">Palvelut</a>
+      <a class="nav-link" href="filosofia.html">Filosofia</a>
+      <a class="nav-link" href="yritys.html">Yritys</a>
+      <a class="nav-cta" href="yhteystiedot.html" aria-current="page">Ota yhteyttä</a>
+    </nav>
+    <button class="hamburger" type="button" aria-label="Valikko" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Valikko" aria-hidden="true" inert>
+  <div class="top"><button class="panel-close" type="button" aria-label="Sulje valikko">×</button></div>
+  <nav aria-label="Mobiilivalikko">
+    <a href="index.html">Etusivu</a>
+    <a href="palvelut.html">Palvelut</a>
+    <a href="filosofia.html">Filosofia</a>
+    <a href="yritys.html">Yritys</a>
+    <a href="yhteystiedot.html" aria-current="page">Ota yhteyttä</a>
+  </nav>
+</div>
+<main id="sisalto">
+  <section class="contact">
+    <div class="wrap">
+      <div class="reveal">
+        <div class="label" style="margin-bottom:22px"><span class="code">EDN—04</span><span class="rule"></span><span class="name">Yhteystiedot</span></div>
+        <h1 class="h1">Kerro meille, mitä olet ratkaisemassa.</h1>
+        <p class="lede">Vastaamme mielellämme 1–2 työpäivän kuluessa.</p>
+      </div>
+      <div class="reveal" style="transition-delay:120ms">
+        <form class="form" name="yhteydenotto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="yhteydenotto">
+          <p class="sr-only"><label>Älä täytä tätä kenttää: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="field">
+            <label for="nimi">Nimi</label>
+            <input id="nimi" name="nimi" type="text" autocomplete="name" required aria-describedby="nimi-err">
+            <span class="field-error" id="nimi-err">Anna nimesi.</span>
+          </div>
+          <div class="field">
+            <label for="sahkoposti">Sähköposti</label>
+            <input id="sahkoposti" name="sahkoposti" type="email" inputmode="email" autocomplete="email" required aria-describedby="sahkoposti-err">
+            <span class="field-error" id="sahkoposti-err">Anna kelvollinen sähköpostiosoite.</span>
+          </div>
+          <div class="field">
+            <label for="viesti">Viesti</label>
+            <textarea id="viesti" name="viesti" rows="5" required aria-describedby="viesti-err"></textarea>
+            <span class="field-error" id="viesti-err">Kerro lyhyesti, mitä olet ratkaisemassa.</span>
+          </div>
+          <p class="form-msg" role="alert" hidden>Lähetys epäonnistui. Yritä uudelleen tai laita sähköpostia osoitteeseen <a href="mailto:info@engineeringdesignnexus.com">info@engineeringdesignnexus.com</a>.</p>
+          <button class="btn btn-primary" type="submit">Lähetä viesti</button>
+        </form>
+        <div class="form-done" tabindex="-1" role="status" hidden>
+          <span class="badge badge-mono">EDN—04</span>
+          <p>Kiitos yhteydenotosta! Vastaamme 1–2 työpäivän kuluessa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><span class="badge badge-outline">Yritys</span><div class="v">Engineering Design Nexus Oy</div></div>
+      <div><span class="badge badge-outline">Y-tunnus</span><div class="v">3636920-5</div></div>
+      <div><span class="badge badge-outline">Toimialue</span><div class="v">Suomi</div></div>
+      <div><span class="badge badge-outline">Ydinosaaminen</span><div class="v">SolidWorks · AutoCAD</div></div>
+      <div class="email"><span class="badge badge-outline">Sähköposti</span><div class="v"><a href="mailto:info@engineeringdesignnexus.com">info@engineeringdesignnexus.com</a></div></div>
+    </div>
+    <div class="foot-meta"><span>© 2026 ENGINEERING DESIGN NEXUS</span><span>EDN—REV.B · MITTAKAAVA 1:1</span></div>
+  </div>
+</footer>
+</body>
+</html>
